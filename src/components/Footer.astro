@@ -4,9 +4,17 @@ import Social from "./Social.astro";
 const platform = ["github", "facebook", "linkedin"];
 const username = ["peterkore", "peter.kore.3", "peter-kore"];
 ---
-
+<style>
+    footer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
 <footer>
-<Social platform="twitter" username="astrodotbuild" />
-  <Social platform="github" username="withastro" />
+  <Social platform="linkedin" username="peter-kore" />
+  <Social platform="x" username="KorePeter" />
+  <Social platform="github" username="peterkore" />
   <Social platform="youtube" username="astrodotbuild" />
+  <Social platform="facebook" username="peter.kore.3" />
 </footer>
